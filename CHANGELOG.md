@@ -7,6 +7,10 @@ FEATURES:
    documentation](https://www.vaultproject.io/docs/config/index.html) for
    details. [GH-6957]
 
+BUG FIXES:
+
+ * auth plugin for Kubernetes: enable better support for projected tokens API by allowing user to specify issuerr ([GH-65](https://github.com/hashicorp/vault-plugin-auth-kubernetes/issues/65))
+
 
 ## 1.2.3 (Unreleased)
 
